@@ -1,2 +1,1 @@
-def main() -> None:
-    print("Hello from aads!")
+"""Graph neural networks for scientific-field classification on PubMed."""
