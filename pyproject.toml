@@ -1,0 +1,22 @@
+[project]
+name = "aads"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Paweł Froń", email = "pavelfron4@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "tensorboard>=2.21.0",
+    "torch>=2.15.0",
+    "torch-geometric>=2.8.1",
+    "tqdm>=4.70.1",
+]
+
+[project.scripts]
+aads = "aads:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
